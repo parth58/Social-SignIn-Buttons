@@ -46,7 +46,7 @@ class SignInButton extends StatelessWidget {
               child: Image(
                  image: AssetImage(
                   'assets/google_logo.png',
-                 
+                 package: 'social_signin_buttons',
                 ),
                 height: 25.0,
               ),
@@ -108,7 +108,7 @@ class SignInButton extends StatelessWidget {
               child: Image(
                 image: AssetImage(
                   'assets/microsoft_logo.png',
-                 
+                  package: 'social_signin_buttons',
                 ),
                 height: 27.0,
               ),
