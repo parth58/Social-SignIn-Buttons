@@ -4,10 +4,11 @@ A Flutter package for both android and iOS which provides Social signIn Buttons
 
 ## Screenshots
 
-![Image](screenshots/ss.png =200x350)
+<img src="screenshots/ss.png" height="300em" />
+
 ## Usage
 
-[Example]()
+[Example](https://github.com/parth58/Social-SignIn-Buttons/blob/master/example/lib/main.dart)
 
 To use this package :
 
