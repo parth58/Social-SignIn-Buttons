@@ -41,6 +41,9 @@ class Test extends StatelessWidget {
               onPressed: () {
                 _showButtonPressDialog(context, 'Google');
               },
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.all(Radius.circular(20)),
+              ),
             ),
             SizedBox(
               height: 10,
@@ -89,7 +92,9 @@ class Test extends StatelessWidget {
                 _showButtonPressDialog(context, 'Twitter');
               },
             ),
-            SizedBox(height: 10,),
+            SizedBox(
+              height: 10,
+            ),
           ],
         ),
       ),
