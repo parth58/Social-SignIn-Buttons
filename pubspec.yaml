@@ -1,6 +1,6 @@
 name: social_signin_buttons
-description: A Flutter package for both android and iOS which provides Social signIn Buttons
-version: 0.0.1
+description: A Flutter package for both android and iOS which provides Social signin Buttons
+version: 0.0.2
 author: Parth Patel <parthp582000@gmail.com>
 homepage: https://github.com/parth58/Social-SignIn-Buttons
 

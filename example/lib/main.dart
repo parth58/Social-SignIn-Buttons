@@ -21,7 +21,6 @@ class MyApp extends StatelessWidget {
 }
 
 class Test extends StatelessWidget {
- 
   void _showButtonPressDialog(BuildContext context, String btn) {
     Scaffold.of(context).showSnackBar(SnackBar(
       content: Text('$btn Button Pressed!'),
@@ -43,28 +42,36 @@ class Test extends StatelessWidget {
                 _showButtonPressDialog(context, 'Google');
               },
             ),
-            Divider(),
+            SizedBox(
+              height: 10,
+            ),
             SignInButton(
               Buttons.Facebook,
               onPressed: () {
                 _showButtonPressDialog(context, 'Facebook');
               },
             ),
-            Divider(),
+            SizedBox(
+              height: 10,
+            ),
             SignInButton(
               Buttons.Apple,
               onPressed: () {
                 _showButtonPressDialog(context, 'Apple');
               },
             ),
-            Divider(),
+            SizedBox(
+              height: 10,
+            ),
             SignInButton(
               Buttons.Microsoft,
               onPressed: () {
                 _showButtonPressDialog(context, 'Microsoft');
               },
             ),
-            Divider(),
+            SizedBox(
+              height: 10,
+            ),
             SignInButton(
               Buttons.GitHub,
               text: "Sign up with GitHub",
@@ -72,7 +79,9 @@ class Test extends StatelessWidget {
                 _showButtonPressDialog(context, 'Github');
               },
             ),
-            Divider(),
+            SizedBox(
+              height: 10,
+            ),
             SignInButton(
               Buttons.Twitter,
               text: "Sign In with Twitter",
@@ -80,7 +89,7 @@ class Test extends StatelessWidget {
                 _showButtonPressDialog(context, 'Twitter');
               },
             ),
-            Divider(),
+            SizedBox(height: 10,),
           ],
         ),
       ),

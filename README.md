@@ -5,6 +5,7 @@ A Flutter package for both android and iOS which provides Social signIn Buttons
 ## Screenshots
 
 <img src="screenshots/ss.png" height="300em" />
+![ScreenShot 01](https://github.com/parth58/Social-SignIn-Buttons/blob/master/screenshots/ss.png?raw=true "ScreenShot 01" =200x300)
 
 ## Usage
 
@@ -12,7 +13,7 @@ A Flutter package for both android and iOS which provides Social signIn Buttons
 
 To use this package :
 
-* add the dependency to your [pubspec.yaml]() file.
+* add the dependency to your [pubspec.yaml](https://github.com/parth58/Social-SignIn-Buttons/blob/master/pubspec.yaml) file.
 
 ```yaml
   dependencies:
@@ -47,44 +48,6 @@ class Test extends StatelessWidget {
                 _showButtonPressDialog(context, 'Google');
               },
             ),
-            Divider(),
-            SignInButton(
-              Buttons.Facebook,
-              onPressed: () {
-                _showButtonPressDialog(context, 'Facebook');
-              },
-            ),
-            Divider(),
-            SignInButton(
-              Buttons.Apple,
-              onPressed: () {
-                _showButtonPressDialog(context, 'Apple');
-              },
-            ),
-            Divider(),
-            SignInButton(
-              Buttons.Microsoft,
-              onPressed: () {
-                _showButtonPressDialog(context, 'Microsoft');
-              },
-            ),
-            Divider(),
-            SignInButton(
-              Buttons.GitHub,
-              text: "Sign up with GitHub",
-              onPressed: () {
-                _showButtonPressDialog(context, 'Github');
-              },
-            ),
-            Divider(),
-            SignInButton(
-              Buttons.Twitter,
-              text: "Sign In with Twitter",
-              onPressed: () {
-                _showButtonPressDialog(context, 'Twitter');
-              },
-            ),
-            Divider(),
           ],
         ),
       ),
@@ -93,6 +56,16 @@ class Test extends StatelessWidget {
 }
 
 ```
+
+### List Of Buttons
+* Buttons.Google
+* Buttons.Facebook
+* Buttons.Microsoft
+* Buttons.Apple
+* Buttons.Github
+* Buttons.LinkedIn
+* Buttons.Twitter
+* Buttons.Email
 
 
 # License
