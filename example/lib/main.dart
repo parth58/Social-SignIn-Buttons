@@ -42,7 +42,7 @@ class Test extends StatelessWidget {
                 _showButtonPressDialog(context, 'Google');
               },
               shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.all(Radius.circular(20)),
+                borderRadius: BorderRadius.circular(20),
               ),
             ),
             const SizedBox(height: 10),
