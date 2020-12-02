@@ -25,7 +25,7 @@ class Test extends StatelessWidget {
     Scaffold.of(context).showSnackBar(SnackBar(
       content: Text('$btn Button Pressed!'),
       backgroundColor: Colors.black26,
-      duration: Duration(milliseconds: 400),
+      duration: const Duration(milliseconds: 400),
     ));
   }
 
@@ -45,36 +45,28 @@ class Test extends StatelessWidget {
                 borderRadius: BorderRadius.all(Radius.circular(20)),
               ),
             ),
-            SizedBox(
-              height: 10,
-            ),
+            const SizedBox(height: 10),
             SignInButton(
               Buttons.Facebook,
               onPressed: () {
                 _showButtonPressDialog(context, 'Facebook');
               },
             ),
-            SizedBox(
-              height: 10,
-            ),
+            const SizedBox(height: 10),
             SignInButton(
               Buttons.Apple,
               onPressed: () {
                 _showButtonPressDialog(context, 'Apple');
               },
             ),
-            SizedBox(
-              height: 10,
-            ),
+            const SizedBox(height: 10),
             SignInButton(
               Buttons.Microsoft,
               onPressed: () {
                 _showButtonPressDialog(context, 'Microsoft');
               },
             ),
-            SizedBox(
-              height: 10,
-            ),
+            const SizedBox(height: 10),
             SignInButton(
               Buttons.GitHub,
               text: "Sign up with GitHub",
@@ -82,9 +74,7 @@ class Test extends StatelessWidget {
                 _showButtonPressDialog(context, 'Github');
               },
             ),
-            SizedBox(
-              height: 10,
-            ),
+            const SizedBox(height: 10),
             SignInButton(
               Buttons.Twitter,
               text: "Sign In with Twitter",
@@ -92,9 +82,7 @@ class Test extends StatelessWidget {
                 _showButtonPressDialog(context, 'Twitter');
               },
             ),
-            SizedBox(
-              height: 10,
-            ),
+            const SizedBox(height: 10),
           ],
         ),
       ),
